@@ -1,0 +1,32 @@
+h1. Reptile
+
+Reptile will take a directory that looks like this:
+
+<pre>
+<code>
+in_dir/level_1_A/some.textile
+in_dir/level_1_B/another.textile
+</code>
+</pre>
+
+and create:
+
+<pre>
+<code>
+out_dir/index.html
+out_dir/level_1_A/some.html
+out_dir/level_1_A/index.html
+out_dir/level_1_B/another.html
+out_dir/level_1_B/index.html
+</code>
+</pre>
+
+Note that it will only go down one level.
+
+h2. Usage
+
+<pre>
+<code>
+reptile.py in_dir out_dir
+</code>
+</pre>
