@@ -13,6 +13,7 @@ and create:
 
 <pre>
 <code>
+out_dir/css/*.css
 out_dir/index.html
 out_dir/level_1_A/some.html
 out_dir/level_1_A/index.html
@@ -30,3 +31,7 @@ h2. Usage
 reptile.py in_dir out_dir
 </code>
 </pre>
+
+h2. CSS Files
+
+The CSS files were taken from https://github.com/mojombo/mojombo.github.com .
