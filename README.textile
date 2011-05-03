@@ -1,5 +1,7 @@
 h1. Reptile
 
+Reptile eats textile. :)
+
 Reptile will take a directory that looks like this:
 
 <pre>
